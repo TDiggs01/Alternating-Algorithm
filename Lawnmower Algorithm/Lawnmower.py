@@ -10,13 +10,11 @@ def lawnmower(size, disk):
                 temp = disk[i]
                 disk[i] = disk[i + 1]
                 disk[i + 1] = temp
-        print(disk)
         for j in range(size-1, 0, -1):
             if disk[j] < disk[j-1]:
                 temp = disk[j]
                 disk[j] = disk[j-1]
                 disk[j-1] = temp
-        print(disk)
     return disk
 
 
