@@ -7,7 +7,7 @@ def leftRight(size, disk):
     for i in range(size):
     # Loop the same number of time as the size of the array
         for j in range(size-1):
-        # starts at begining of array and goes to end
+        # starts at beginning of array and goes to end
             if disk[j] > disk[j+1]:
                 temp = disk[j]
                 disk[j] = disk[j+1]
